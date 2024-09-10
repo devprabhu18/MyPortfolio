@@ -2,6 +2,7 @@ import "./globals.css";
 import { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import {Inter} from "next/font/google"
+import Footer from "@/components/footer";
 
 export const metadata: Metadata={
   title:'Devananda M Prabhu',
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
