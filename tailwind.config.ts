@@ -11,9 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bordercol: "var(--bordercol)",
       },
     },
   },
   plugins: [],
+  darkMode: 'class',
 };
 export default config;
