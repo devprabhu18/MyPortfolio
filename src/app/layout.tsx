@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import {Inter} from "next/font/google"
 import Footer from "@/components/footer";
+import { Providers } from "./providers";
 
 export const metadata: Metadata={
   title:'Devananda M Prabhu',
@@ -18,11 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <Navbar/>
-        {children}
-        <Footer/>
+        <Providers>
+          <Navbar/>
+          {children}
+          <Footer/>
+        </Providers>
       </body>
     </html>
   );
