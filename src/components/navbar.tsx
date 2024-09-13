@@ -56,7 +56,7 @@ export default function Navbar() {
                 {name}
               </Link>
             ))}
-            <div className="hover:cursor-pointer">
+            <div className="hover:cursor-pointer" onClick={toggleMenu}>
               <ThemeSwitch />
             </div>
           </div>
