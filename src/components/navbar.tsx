@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ThemeSwitch from "@/ui/ThemeSwitch";
-import { FaBars, FaTimes } from "react-icons/fa"; // For hamburger and close icons
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const navItems = {
   '/': { name: 'Home' },
@@ -15,7 +15,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false); 
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); 
+    setIsOpen(!isOpen);
   };
 
   return (
