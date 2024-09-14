@@ -1,13 +1,16 @@
 
 import ProfileImage from "@/components/profileimage";
 import Link from "next/link";
-
+import { TechStack } from "@/components/techstack";
+import { languages } from "@/data/languages";
+import { libraries } from "@/data/libraries";
+import { tools } from "@/data/tools";
 
 export default function Home() {
   return (
     <>
       <main className="pl-6 pr-6">
-        <div className="sm:pt-8 pt-4 pb-4 sm:pb-8 mt-3 sm:mt-8 border-none rounded-xl shadow-lg bg-white/5 ml-4 mr-4 lg:ml-60 lg:mr-60">
+        <div className="sm:pt-8 pt-4 pb-4 sm:pb-8 mt-3 sm:mt-8 border-none rounded-xl shadow-lg bg-white/5 ml-4 mr-4 sm:w-[600px] sm:mx-auto lg:w-[1000px] lg:mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-4">
             <div className="sm:col-span-2 flex">
               <div className="flex content-center justify-center items-center h-full w-full">
@@ -51,7 +54,7 @@ export default function Home() {
           <div className="flex flex-col  items-center">
             
             <h1 className="font-medium text-2xl sm:text-3xl">About Me</h1>
-            <div className="border rounded-xl border-none shadow-lg bg-white/5 ml-4 mr-4 flex flex-col items-center justify-center text-center mt-3 pt-2 sm:mt-6 sm:ml-60 sm:mr-60">
+            <div className="border rounded-xl border-none shadow-lg bg-white/5 ml-4 mr-4 flex flex-col items-center justify-center text-center mt-3 pt-2 sm:mt-6 sm:w-[600px] sm:mx-auto lg:w-[1000px] lg:mx-auto">
               <p className="p-2 sm:pl-8 sm:pr-8 sm:pt-4 sm:mt-3  text-justify sm:leading-7">
               I am currently pursuing a Bachelor of Engineering in Computer Science and Engineering at SJEC in India. My academic journey is fueled by a deep passion for developing full-stack web applications and cross-platform solutions. Whether it’s crafting seamless web experiences or building versatile mobile apps, I thrive on bringing innovative digital ideas to life. Alongside my coursework, I immerse myself in solving programming challenges, often spending hours engrossed in code. This relentless curiosity and dedication to problem-solving are at the heart of my approach to technology.</p>
 
@@ -68,15 +71,52 @@ export default function Home() {
           <div className="flex flex-col  items-center">
             
             <h1 className="font-medium text-2xl sm:text-3xl">Tech Stack</h1>
-            <div className="border rounded-xl border-none shadow-lg bg-white/5 ml-4 mr-4 flex flex-col items-center justify-center text-center mt-3 pt-2 sm:ml-60 sm:mr-60">
-              <p className="p-2 sm:pl-8 sm:pr-8 sm:pt-4 text-justify">
-              I am currently pursuing a Bachelor of Engineering in Computer Science and Engineering at SJEC in India. My academic journey is fueled by a deep passion for developing full-stack web applications and cross-platform solutions. Whether it’s crafting seamless web experiences or building versatile mobile apps, I thrive on bringing innovative digital ideas to life. Alongside my coursework, I immerse myself in solving programming challenges, often spending hours engrossed in code. This relentless curiosity and dedication to problem-solving are at the heart of my approach to technology.</p>
+            <div className="border rounded-xl border-none shadow-lg bg-white/5 ml-4 mr-4 flex flex-col items-center justify-center text-center sm:mt-6 mt-3 pt-2 sm:w-[600px] sm:mx-auto lg:w-[1000px] lg:mx-auto pb-4 sm:pb-6">
+              <div className="p-2 sm:pl-8 sm:pr-8 sm:pt-6 w-full flex justify-between">
+                <h1 className="text-left text-lg sm:text-xl font-medium ml-2">Programming Languages:</h1>
+                <div></div> 
+              </div>
+              <TechStack techstack={languages} />
 
-              <p className="p-2 mt-2 sm:pl-8 sm:pb-4 sm:pr-8 text-justify">My enthusiasm for technology extends beyond just development; I am constantly exploring new tools and trends. I pride myself on my ability to quickly learn and adapt to new technologies, which enables me to stay on the cutting edge of the tech world. This agility in learning and my love for tackling complex problems drive me to continually evolve and refine my skills, making me excited about every new project and challenge that comes my way.
-              </p>
+              <div className="p-2 sm:pl-8 sm:pr-8 sm:pt-6 w-full flex justify-between mt-3">
+                <h1 className="text-left text-lg sm:text-xl font-medium ml-2">Frameworks/Libraries:</h1>
+                <div></div> 
+              </div>
+              <TechStack techstack={libraries} />
+
+              <div className="p-2 sm:pl-8 sm:pr-8 sm:pt-6 w-full flex justify-between mt-3">
+                <h1 className="text-left text-lg sm:text-xl font-medium ml-2">Tools:</h1>
+                <div></div> 
+              </div>
+              <TechStack techstack={tools} />
             </div>
           </div>
         </div>
+
+
+        <div className=" pt-4 sm:pt-2 grid grid-cols-1 pb-4 sm:pb-8 border-red-500 border sm:mt-5 mt-2">
+          <div className="flex flex-col  items-center">
+            
+            <h1 className="font-medium text-2xl sm:text-3xl">Accomplishments</h1>
+            <div className="border rounded-xl border-none shadow-lg bg-white/5 ml-4 mr-4 flex flex-col items-center justify-center text-center sm:mt-6 mt-3 pt-2 sm:w-[600px] sm:mx-auto lg:w-[1000px] lg:mx-auto pb-4 sm:pb-6">
+              <div className="p-2 sm:pl-8 sm:pr-8 sm:pt-6 w-full flex justify-between">
+                <h1 className="text-left text-lg sm:text-xl font-medium ml-2">Achievements:</h1>
+                <div></div> 
+              </div>
+              <div>
+
+              </div>
+
+              <div className="p-2 sm:pl-8 sm:pr-8 sm:pt-6 w-full flex justify-between mt-3">
+                <h1 className="text-left text-lg sm:text-xl font-medium ml-2">Certifications:</h1>
+                <div></div> 
+              </div>
+              <TechStack techstack={tools} />
+            </div>
+          </div>
+        </div>
+
+
       </main>
     </>
   );
