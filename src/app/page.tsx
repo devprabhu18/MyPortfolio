@@ -9,6 +9,7 @@ import { tools } from "@/data/tools";
 export default function Home() {
   return (
     <>
+      
       <main className="pl-6 pr-6">
         <div className="sm:pt-8 pt-4 pb-4 sm:pb-8 mt-3 sm:mt-8 border-none rounded-xl shadow-lg bg-white/5 ml-1 mr-1 sm:w-[600px] sm:mx-auto lg:w-[1000px] lg:mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-4">
@@ -49,7 +50,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className=" pt-4 sm:pt-2 grid grid-cols-1 pb-4 sm:pb-8 mt-3 sm:mt-10">
           <div className="flex flex-col  items-center">
             
@@ -61,11 +61,8 @@ export default function Home() {
           </div>
         </div>
 
-
-
-        <div className=" pt-4 sm:pt-2 grid grid-cols-1 pb-4 sm:pb-8 border-red-500 border mt-2">
-          <div className="flex flex-col  items-center">
-            
+        <div className=" pt-4 sm:pt-2 grid grid-cols-1 pb-4 sm:pb-8 mt-2">
+          <div className="flex flex-col  items-center">          
             <h1 className="font-medium text-2xl sm:text-3xl">Tech Stack</h1>
             <div className="border rounded-xl border-none shadow-lg bg-white/5 ml-1 mr-1 flex flex-col items-center justify-center text-center sm:mt-6 mt-3 pt-2 sm:w-[600px] sm:mx-auto lg:w-[1000px] lg:mx-auto pb-4 sm:pb-6">
               <div className="p-2 sm:pl-8 sm:pr-8 sm:pt-6 w-full flex justify-between">
@@ -89,8 +86,7 @@ export default function Home() {
           </div>
         </div>
 
-
-        <div className=" pt-4 sm:pt-2 grid grid-cols-1 pb-4 sm:pb-8 border-red-500 border sm:mt-5 mt-2">
+        <div className=" pt-4 sm:pt-2 grid grid-cols-1 pb-4 sm:pb-8 mt-2">
           <div className="flex flex-col  items-center">
             
             <h1 className="font-medium text-2xl sm:text-3xl">Accomplishments</h1>
@@ -117,12 +113,10 @@ export default function Home() {
                   <li className="text-sm sm:text-base text-justify sm:mt-4">Relational Database and SQL - Completed a hands-on course from Coursera Project Network, focusing on relational database management and advanced SQL techniques to efficiently manage and query data.</li>
                   <li className="text-sm sm:text-base text-justify sm:mt-4">Introduction to Blockchain and Ethereum - Completed a course on Infosys Springboard covering blockchain basics and Ethereum development.</li>         
                 </ul>
-              </div>
-              
+              </div>             
             </div>
           </div>
         </div>
-
 
       </main>
     </>
