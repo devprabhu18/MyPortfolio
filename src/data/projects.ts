@@ -32,7 +32,7 @@ export const projects = [
     {
       title: 'HotelFlow',
       description:
-        'hotelFlow is a hotel management web app built with Flask and MySQL. It streamlines receptionist tasks by simplifying check-ins, check-outs, and customer record management. Features include real-time availability tracking, booking management, and reporting tools, all designed to boost efficiency and reduce errors. Perfect for both small and large hotels, hotelFlow enhances productivity and guest experience.',
+        'HotelFlow is a hotel management web app built with Flask and MySQL. It streamlines receptionist tasks by simplifying check-ins, check-outs, and customer record management. Features include real-time availability tracking, booking management, and reporting tools, all designed to boost efficiency and reduce errors. Perfect for both small and large hotels, hotelFlow enhances productivity and guest experience.',
       gitLink: 'https://github.com/devprabhu18/HotelFlow',
       prodLink: 'https://github.com/devprabhu18/HotelFlow',
       techStack: [
