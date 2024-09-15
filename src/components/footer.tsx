@@ -10,12 +10,12 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row justify-between pb-3">
             <div className="flex flex-col sm:flex-row sm:space-x-14 space-y-3 sm:space-y-0">
               <div className="border-[1px] rounded-md border-none bg-white/10 shadow-md hover:shadow-blue-800 hover:-translate-y-0.5 transition-all ease-out flex flex-row content-center justify-center">
-                <a className="flex items-center p-2 space-x-1" href="https://github.com/devprabhu18">
+                <a className="flex items-center p-2 space-x-1" href="https://github.com/devprabhu18" target="_blank" rel="noopener noreferrer">
                   <FaGithub /> <p>Github</p>
                 </a>
               </div>
               <div className="border-[1px] rounded-md border-none bg-white/10 shadow-md hover:shadow-blue-800 hover:-translate-y-0.5 transition-all ease-out flex flex-row content-center justify-center">
-                <a className="flex p-2 items-center space-x-1" href="https://www.linkedin.com/in/devanandamprabhu/">
+                <a className="flex p-2 items-center space-x-1" href="https://www.linkedin.com/in/devanandamprabhu/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin /> <p>LinkedIn</p>
                 </a>
               </div>
@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="flex text-xs sm:text-base justify-center pb-2 text-center">
             <p className="flex  content-center justify-center">&copy; Devananda M Prabhu.&nbsp;&nbsp;
               <span className="font-bold underline underline-offset-4 hover:no-underline">
-                <Link href="https://github.com/devprabhu18/MyPortfolio" target="_blank">
+                <Link href="https://github.com/devprabhu18/MyPortfolio" target="_blank" rel="noopener noreferrer">
                   Crafted by yours truly
                 </Link>
               </span>
