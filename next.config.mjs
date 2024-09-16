@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['github.com'], // Add github.com as an allowed domain
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'github.com',
+          pathname: '/devprabhu18.png', // Specific path to your profile image
+        },
+      ],
       },
 };
 
