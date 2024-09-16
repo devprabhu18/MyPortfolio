@@ -14,7 +14,6 @@ export const ProjectCard = ({
   techStack,
   thumb,
 }: ProjectCardProps) => {
-  const isExternal = prodLink.startsWith("http");
 
   return (
     <div className="border rounded-xl border-none shadow-lg bg-white/5 sm:ml-1 sm:mr-1 ml-3 mr-3 flex flex-col sm:mt-8 mt-4 pt-2 pb-0 sm:h-[300px]">

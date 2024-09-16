@@ -65,7 +65,7 @@ export default function Page(){
                     <ul className="list-disc list-inside text-left space-y-2 text-sm sm:text-base">
                         <p className="sm:mb-6 mb-3">At MotionCut, I developed and designed interactive web applications:</p>
                         <li className="text-sm sm:text-base text-justify sm:mt-4">Designed a landing page for a business, focusing on UI/UX design to ensure responsiveness and an appealing visual experience.</li>
-                        <li className="text-sm sm:text-base text-justify sm:mt-4">Designed a product catalog for an e-commerce website, incorporating features such as "Add to Cart" to enhance user functionality and streamline the shopping experience.</li>
+                        <li className="text-sm sm:text-base text-justify sm:mt-4">Designed a product catalog for an e-commerce website, incorporating features such as &quot;Add to Cart&quot; to enhance user functionality and streamline the shopping experience.</li>
                         <li className="text-sm sm:text-base text-justify sm:mt-4">Designed a task monitoring web app that allows users to add, create, delete, and check tasks, and integrated a database to ensure seamless data management and persistence.</li>         
                     </ul>
                 </div>

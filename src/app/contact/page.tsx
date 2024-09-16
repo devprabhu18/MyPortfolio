@@ -64,7 +64,7 @@ export default function ContactForm() {
               className="flex flex-col mt-0 sm:mt-8 mb-8 w-full sm:w-[400px] lg:w-[700px] px-6 sm:px-4 lg:px-12 sm:ml-18 sm:mr-18"
             >
               <h2 className="font-medium text-lg sm:text-xl mb-1 sm:mb-5 ">
-                Let's Have a Chat
+                Let&apos;s Have a Chat
               </h2>
               <label className="text-left mb-1 sm:mt-0 mt-3" htmlFor="name">
                 Name
