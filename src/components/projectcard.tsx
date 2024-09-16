@@ -25,7 +25,7 @@ export const ProjectCard = ({
               src={thumb}
               alt={`${title} logo`}
               fill
-              className=" sm:rounded-l-xl object-cover"
+              className=" sm:rounded-l-xl sm:rounded-tr-none rounded-t-xl object-cover"
               style={{ margin: 0, padding: 0 }}
             />
           </div>
