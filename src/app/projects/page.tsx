@@ -1,5 +1,11 @@
 import { ProjectCard } from "@/components/projectcard"
 import { projects } from "@/data/projects"
+import { Metadata } from "next"
+
+export const metadata: Metadata={
+    title:'My Projects | Devananda Prabhu',
+    description:'This is the Projects page'
+}
 
 export default function Page(){
     return(

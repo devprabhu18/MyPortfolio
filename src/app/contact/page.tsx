@@ -4,6 +4,7 @@ import { LuSendHorizonal } from "react-icons/lu";
 import { TechStack } from "@/components/techstack";
 import { social } from "@/data/social";
 
+
 export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");

@@ -1,4 +1,10 @@
 import { MdDateRange } from "react-icons/md";
+import { Metadata } from "next";
+
+export const metadata: Metadata={
+    title:'Experience | Devananda Prabhu',
+    description:'This is the Work Experience page'
+}
 
 export default function Page(){    
     return(

@@ -24,7 +24,7 @@ export default function Navbar() {
         <nav className="flex justify-between items-center py-4">
           <div>
             <Link href="/">
-              <h2 className="font-sans text-xl sm:text-2xl italic">
+              <h2 className="font-sans text-xl sm:text-2xl font-semibold tracking-tight">
                 &lt;Devananda Prabhu/&gt;
               </h2>
             </Link>

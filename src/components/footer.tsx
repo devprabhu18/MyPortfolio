@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex text-xs sm:text-base justify-center pb-2 text-center">
-            <p className="flex  content-center justify-center">&copy; Devananda M Prabhu.&nbsp;&nbsp;
+            <p className="flex  content-center justify-center">&copy; 2024 Devananda Prabhu.&nbsp;&nbsp;
               <span className="font-bold underline underline-offset-4 hover:no-underline">
                 <Link href="https://github.com/devprabhu18/MyPortfolio" target="_blank" rel="noopener noreferrer">
                   Crafted by yours truly

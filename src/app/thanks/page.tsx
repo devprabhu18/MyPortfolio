@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata={
+  title:'Thanks You | Devananda Prabhu',
+  description:'This is the Thank you page'
+}
 
 export default function Page() {
   return (

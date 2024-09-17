@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 import { Providers } from "./providers";
 
 export const metadata: Metadata={
-  title:'Devananda M Prabhu',
+  title:'Devananda Prabhu',
   description:'This is the home page'
 }
 
