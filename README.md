@@ -1,9 +1,8 @@
 
 # Portfolio Website
 ## Link of the Website:
-### Coming Soon...
----
-***
+
+https://devanandaprabhu.vercel.app/
 
 ## Overview
 
@@ -32,6 +31,13 @@ To run this project locally, follow these steps:
     yarn dev
 
 4. Open http://localhost:3000 in your browser to see the website.
+
+## Tech Stack
+
+1. Next.js - React framework for server-side rendering and static site generation.
+2. Tailwind CSS - Utility-first CSS framework for styling.
+3. TypeScript - Strongly typed JavaScript for type safety and better development experience.
+4. Git - Version control system for tracking changes and collaboration.
 
 ## Contact
 
